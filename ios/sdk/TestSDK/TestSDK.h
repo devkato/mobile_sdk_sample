@@ -11,5 +11,6 @@
 @interface TestSDK : NSObject
 
 +(id) sharedManager;
+-(void) sayHello;
 
 @end

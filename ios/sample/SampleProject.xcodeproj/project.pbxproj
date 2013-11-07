@@ -22,7 +22,8 @@
 		411DB1841828FE79006D4676 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411DB1631828FE79006D4676 /* UIKit.framework */; };
 		411DB18C1828FE79006D4676 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 411DB18A1828FE79006D4676 /* InfoPlist.strings */; };
 		411DB18E1828FE79006D4676 /* SampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411DB18D1828FE79006D4676 /* SampleProjectTests.m */; };
-		411DB1A31829054A006D4676 /* libTestSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 411DB1A11829054A006D4676 /* libTestSDK.a */; };
+		41EF2D44182BC31C0033CEE6 /* libTestSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF2D43182BC31C0033CEE6 /* libTestSDK.a */; };
+		41EF2D45182BC31C0033CEE6 /* libTestSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF2D43182BC31C0033CEE6 /* libTestSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4101CDA5182BBEF900A1D36D /* TestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSDK.h; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal/include/TestSDK/TestSDK.h"; sourceTree = "<group>"; };
 		411DB15C1828FE79006D4676 /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		411DB15F1828FE79006D4676 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		411DB1611828FE79006D4676 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,8 +58,7 @@
 		411DB1891828FE79006D4676 /* SampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		411DB18B1828FE79006D4676 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		411DB18D1828FE79006D4676 /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
-		411DB1A11829054A006D4676 /* libTestSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestSDK.a; path = ../../../libTestSDK.a; sourceTree = "<group>"; };
-		411DB1A21829054A006D4676 /* TestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSDK.h; path = ../../../TestSDK.h; sourceTree = "<group>"; };
+		41EF2D43182BC31C0033CEE6 /* libTestSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestSDK.a; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal/libTestSDK.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411DB1A31829054A006D4676 /* libTestSDK.a in Frameworks */,
+				41EF2D44182BC31C0033CEE6 /* libTestSDK.a in Frameworks */,
 				411DB1621828FE79006D4676 /* CoreGraphics.framework in Frameworks */,
 				411DB1641828FE79006D4676 /* UIKit.framework in Frameworks */,
 				411DB1601828FE79006D4676 /* Foundation.framework in Frameworks */,
@@ -76,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EF2D45182BC31C0033CEE6 /* libTestSDK.a in Frameworks */,
 				411DB1821828FE79006D4676 /* XCTest.framework in Frameworks */,
 				411DB1841828FE79006D4676 /* UIKit.framework in Frameworks */,
 				411DB1831828FE79006D4676 /* Foundation.framework in Frameworks */,
@@ -88,8 +90,8 @@
 		411DB1531828FE79006D4676 = {
 			isa = PBXGroup;
 			children = (
-				411DB1A11829054A006D4676 /* libTestSDK.a */,
-				411DB1A21829054A006D4676 /* TestSDK.h */,
+				4101CDA5182BBEF900A1D36D /* TestSDK.h */,
+				41EF2D43182BC31C0033CEE6 /* libTestSDK.a */,
 				411DB1651828FE79006D4676 /* SampleProject */,
 				411DB1871828FE79006D4676 /* SampleProjectTests */,
 				411DB15E1828FE79006D4676 /* Frameworks */,
@@ -404,7 +406,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/kato,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal",
+					/Users/kato/workspace/github/mobile_sdk_sample/ios/sample,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -422,7 +425,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/kato,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal",
+					/Users/kato/workspace/github/mobile_sdk_sample/ios/sample,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -446,6 +450,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SampleProjectTests/SampleProjectTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal",
+					/Users/kato/workspace/github/mobile_sdk_sample/ios/sample,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -465,6 +474,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SampleProject/SampleProject-Prefix.pch";
 				INFOPLIST_FILE = "SampleProjectTests/SampleProjectTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal",
+					/Users/kato/workspace/github/mobile_sdk_sample/ios/sample,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -490,6 +504,7 @@
 				411DB1931828FE79006D4676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		411DB1941828FE79006D4676 /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				411DB1961828FE79006D4676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
