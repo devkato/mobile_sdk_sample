@@ -1,615 +1,0 @@
-TTestSDK
-v6
-r1
-cCheck dependencies
-cProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7
-cLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s
-cLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64
-cCreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64
-cPBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
-c00000000526732880000000000000110
-t1382494856
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
-c000000005266ACAF000000000000036B
-t1382460591
-s875
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005267324400000000000001A0
-t1382494788
-s416
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000526732480000000000A92BC0
-t1382494792
-s11086784
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
-c000000005266ACFB0000000000000AC9
-t1382460667
-s2761
-
-N/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-t1383826636
-s228
-
-N/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a
-t1383826636
-s29148
-
-N/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-t1383648434
-s247
-
-N/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a
-t1383648613
-s29124
-
-N/Users/kato/TestSDK 2/TestSDK/TestSDK/TestSDK.h
-c000000005278CD7100000000000000F7
-t1383648625
-s247
-
-N/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-c0000000052789DC900000000000000B4
-t1383636425
-s180
-
-N/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-c000000005278CD640000000000000602
-t1383648612
-s1538
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.LinkFileList
-c000000005278C7DC000000000000006C
-t1383647196
-s108
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o
-t1383648628
-s10300
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a
-t1383648628
-s10544
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.LinkFileList
-c000000005278C7DC000000000000006C
-t1383647196
-s108
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o
-t1383648628
-s9016
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a
-t1383648628
-s9256
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.LinkFileList
-c000000005278C7DC000000000000006D
-t1383647196
-s109
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o
-t1383648628
-s9016
-
-N/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a
-t1383648628
-s9256
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch
-c00000000527B817B00000000000000B4
-t1383825787
-s180
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-c00000000527B831100000000000000E4
-t1383826193
-s228
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-c00000000527B817B0000000000000602
-t1383825787
-s1538
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o
-t1383826016
-s10308
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.LinkFileList
-c00000000527B82830000000000000087
-t1383826051
-s135
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o
-t1383826636
-s10308
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a
-t1383826636
-s10552
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o
-t1383826016
-s9024
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.LinkFileList
-c00000000527B82830000000000000087
-t1383826051
-s135
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o
-t1383826636
-s9024
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a
-t1383826636
-s9264
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o
-t1383826016
-s9024
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.LinkFileList
-c00000000527B82830000000000000088
-t1383826051
-s136
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o
-t1383826636
-s9024
-
-N/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a
-t1383826636
-s9264
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch
-t1383647197
-s78552
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch
-t1383648434
-s83284
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch
-t1383648434
-s83308
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch
-t1383825966
-s107864
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch
-t1383647197
-s93480
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch
-t1383825966
-s84312
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch
-t1383648434
-s106856
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch
-t1383825966
-s84292
-
-N/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch
-t1383647197
-s78544
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies041ed855bc2bb841^d104ea55bc2bb841^---0#1#1#--18"Check dependencies36"36AA0781-C6DA-4A88-B151-3394B56ADF77-
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518816.728009
-e405518816.766649
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m192"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0fb8bae0b92bb841^b343c4e0b92bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3600"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK-6CE71ACBB5730A55.o36"28EE2902-AF57-4951-990E-E227493E2DD0-
-b232F6215-D31B-4F9D-BDCF-0B1300E9177F
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341427.975561
-e405341428.018071
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o
-x/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-d/Users/kato/TestSDK 2/TestSDK/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m175"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilercb11faf30429b841^d09d04f40429b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m0000000000000000^3235"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.d --serialize-diagnostics /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.dia -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o36"0F024946-573A-47CE-AFF2-7C2DC8EE1FE0-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405519436.755658
-e405519436.798438
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m175"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8bc3c14cbc2bb841^f086cc4cbc2bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3532"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o TestSDK/TestSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.o36"5A916342-9CEC-4BBD-962A-04B3C97016F1-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518816.727303
-e405518816.765816
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m192"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4e9abae0b92bb841^1b11c4e0b92bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3600"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK-6CE71ACBB5730A55.o36"8CE897E3-6107-44AC-ADC3-1B985BF673E9-
-b232F6215-D31B-4F9D-BDCF-0B1300E9177F
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341427.974987
-e405341428.018072
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o
-x/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-d/Users/kato/TestSDK 2/TestSDK/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m175"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler68e6f9f30429b841^ebaa04f40429b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m0000000000000000^3235"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.d --serialize-diagnostics /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.dia -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o36"1EEA974E-8F92-437C-85DF-228DE9A6DCE5-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405519436.755111
-e405519436.799772
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m175"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerdac8c14cbc2bb841^f0c4cc4cbc2bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3532"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o TestSDK/TestSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.o36"E611D7D4-4175-4682-BE2A-1DCD52C4C6C0-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518816.727644
-e405518816.768743
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m194"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerada3bae0b92bb841^57ccc4e0b92bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3607"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK-6CE71ACBB5730A55.o36"6918F7E6-1DE9-4E17-A874-563999DC1215-
-b232F6215-D31B-4F9D-BDCF-0B1300E9177F
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341427.975180
-e405341428.019043
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o
-x/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m
-d/Users/kato/TestSDK 2/TestSDK/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m177"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler87fef9f30429b841^a3e504f40429b841^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m0000000000000000^3242"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.d --serialize-diagnostics /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.dia -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o36"32C40FF8-CF65-4510-B483-354991CFAEC7-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CCompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405519436.755307
-e405519436.799713
-r1
-xCompileC
-xbuild/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m177"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler54c8c14cbc2bb841^98c1cc4cbc2bb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m0000000000000000^3539"CompileC build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o TestSDK/TestSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc -include /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch -MMD -MT dependencies -MF /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.d --serialize-diagnostics /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.dia -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.o36"E3D2DC07-30EE-4B8A-A1DF-954AFA2EF968-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CCreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64
-s405519436.813207
-e405519436.821543
-r1
-xCreateUniversalBinary
-x/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a
-xnormal
-xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Create universal binary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a177"CreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64e965d04cbc2bb841^e750d24cbc2bb841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a0000000000000000^806"CreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    libtool -static /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a -o /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/libTestSDK.a36"3AE120F8-262A-4D88-A8C8-004981B1360B-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CCreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64
-s405341428.031061
-e405341428.039025
-r1
-xCreateUniversalBinary
-x/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a
-xnormal
-xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Create universal binary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a177"CreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64613308f40429b841^33fe09f40429b841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a0000000000000000^698"CreateUniversalBinary /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a normal armv7\ armv7s\ arm64    cd /Users/kato/TestSDK/TestSDK    libtool -static /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a -o /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/libTestSDK.a36"E2DC86D0-E37A-40D0-8817-138250DDD0CD-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CLibtool /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64
-s405341428.020264
-e405341428.029750
-r1
-xLibtool
-x/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a
-xnormal
-xarm64
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64f06a05f40429b841^fdbe07f40429b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--807"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64    cd /Users/kato/TestSDK/TestSDK    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -filelist /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a36"C2CC8B21-B51F-4B15-9A24-E56CE88146BE-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CLibtool /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7
-s405341428.019931
-e405341428.029757
-r1
-xLibtool
-x/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7406c05f40429b841^41b707f40429b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--807"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7    cd /Users/kato/TestSDK/TestSDK    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -filelist /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a36"03839DC3-97FA-4FC2-8F8F-7FA07E4D0ED2-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CLibtool /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s
-s405341428.020111
-e405341428.029748
-r1
-xLibtool
-x/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a
-xnormal
-xarmv7s
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s105"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s836c05f40429b841^04ae07f40429b841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--812"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s    cd /Users/kato/TestSDK/TestSDK    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -filelist /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a36"4C8BD086-4BA3-4A00-A49F-2DF0F455B793-
-bBAA293E4-19A8-4511-B481-5E051708C10B
-
-CLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64
-s405519436.801521
-e405519436.811676
-r1
-xLibtool
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a
-xnormal
-xarm64
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64537bcd4cbc2bb841^91f2cf4cbc2bb841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--888"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a normal arm64    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -filelist /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/arm64/libTestSDK.a36"71F635E5-8508-4465-8BFE-03BB0CA3FC87-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7
-s405519436.800977
-e405519436.811509
-r1
-xLibtool
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a
-xnormal
-xarmv7
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7103"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv75260cd4cbc2bb841^f6d3cf4cbc2bb841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--888"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a normal armv7    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -filelist /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7/libTestSDK.a36"B06DB0EA-9CA9-4FE1-ABE7-25A6E8D96997-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CLibtool /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s
-s405519436.801241
-e405519436.811821
-r1
-xLibtool
-x/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a
-xnormal
-xarmv7s
-o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s105"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7se162cd4cbc2bb841^58ffcf4cbc2bb841^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#1#--893"Libtool build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a normal armv7s    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -filelist /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/TestSDK.LinkFileList -ObjC -framework Foundation -o /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/Objects-normal/armv7s/libTestSDK.a36"1A13183F-E322-43FF-A974-D3BA7DFBDFDA-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CPBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-s405519436.822021
-e405519436.823723
-r1
-xPBXCp
-xTestSDK/TestSDK.h
-x/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Copy /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h164"PBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h5da6d24cbc2bb841^f8dfd24cbc2bb841^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h0034fc0dddffdf42^543"PBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include/TestSDK36"0472C928-0ECF-4D3F-9178-7F2E1F6E52BE-
-bCC3A1627-2532-4691-9EC1-E168A1BBA76E
-
-CPBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-s405341234.631353
-e405341234.633117
-r1
-xPBXCp
-xTestSDK/TestSDK.h
-x/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Copy /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h164"PBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.hefe2a1320429b841^8c14a2320429b841^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h0034fc0dddffdf42^489"PBXCp TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK/TestSDK.h    cd /Users/kato/TestSDK/TestSDK    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.h /Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include/TestSDK36"2E1319C1-2A7C-480F-A481-033215685824-
-b342DA03A-A49F-493B-8BA5-860257287E07
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405339996.578907
-e405339997.238592
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler519f945cff28b841^5a4b3d5dff28b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3447"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-actlodtscsluwidjzzgygkpqktie/TestSDK-Prefix.pch.pch36"F0294D80-D759-497A-86B3-FCB170B50684-
-b54BA2B82-C9BE-4BE2-A187-97C24164FCFD
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341234.287243
-e405341234.439024
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch311"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerdae349320429b841^d26e70320429b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3464"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-caeioxjfgyurjffwddqafdngrngd/TestSDK-Prefix.pch.pch36"60520B5F-8441-4165-AF1C-8BA7B06A562C-
-b342DA03A-A49F-493B-8BA5-860257287E07
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341234.286857
-e405341234.439017
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilere2e549320429b841^c68870320429b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3461"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-cchbcoorxprmihdxwxogridndtnt/TestSDK-Prefix.pch.pch36"AFEAC298-7A97-4098-A84C-E187908A80F1-
-b342DA03A-A49F-493B-8BA5-860257287E07
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518766.486514
-e405518766.677476
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler28f27caeb92bb841^c570adaeb92bb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch0000000000000000^3677"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.d -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-dvhoruljbordyiabjrhxqbpqsydx/TestSDK-Prefix.pch.pch36"9601E947-5B0B-44E5-B347-4BF3E14ED2AF-
-b5544A229-0AE1-45A8-8898-F6509ED0C34E
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405339996.579884
-e405339997.265909
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9fc7945cff28b841^d714445dff28b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3447"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fpehluogobqzyqbmosalhznwfqdp/TestSDK-Prefix.pch.pch36"FA78B3BB-A973-4477-9A46-11FCADB87FBE-
-b54BA2B82-C9BE-4BE2-A187-97C24164FCFD
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518766.485817
-e405518766.677487
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler47e37caeb92bb841^f580adaeb92bb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch0000000000000000^3677"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7 -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.d -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-fswajncvkggcmlgtfoqyvkdwejsw/TestSDK-Prefix.pch.pch36"9614A61F-5A43-4CC2-8A0A-83C79B8E33D9-
-b5544A229-0AE1-45A8-8898-F6509ED0C34E
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405341234.287520
-e405341234.439072
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch310"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler43e349320429b841^4e6270320429b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3461"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/arm64 -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwjioigliwcmsngwpikxpurbjiej/TestSDK-Prefix.pch.pch36"AC77EE72-979E-4689-966F-C454BC6F820C-
-b342DA03A-A49F-493B-8BA5-860257287E07
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405518766.486102
-e405518766.677477
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch311"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2fe17caeb92bb841^6477adaeb92bb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch0000000000000000^3680"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-iphoneos -fno-objc-arc -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.d -c /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-gwnglwisimwfydgkdjkrwyonakxy/TestSDK-Prefix.pch.pch36"A16EAD78-EED3-475B-89D5-E3CD9E4184F6-
-b5544A229-0AE1-45A8-8898-F6509ED0C34E
-
-CProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s405339996.579342
-e405339997.260087
-r1
-xProcessPCH
-x/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch
-xTestSDK/TestSDK-Prefix.pch
-xnormal
-xarmv7s
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile TestSDK/TestSDK-Prefix.pch311"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler04a9945cff28b841^9296425dff28b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch0000000000000000^3450"ProcessPCH /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch TestSDK/TestSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kato/TestSDK/TestSDK    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-generated-files.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-own-target-headers.hmap -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-all-target-headers.hmap -iquote /Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/TestSDK-project-headers.hmap -I/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources/armv7s -I/Users/kato/TestSDK/TestSDK/build/TestSDK.build/Debug-iphoneos/TestSDK.build/DerivedSources -F/Users/kato/Library/Developer/Xcode/DerivedData/TestSDK-fujdwylpdfdjdqfjlnszbxywfidk/Build/Products/Debug-iphoneos -fno-objc-arc --serialize-diagnostics /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.d -c /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK-Prefix.pch -o /var/folders/x2/2bsqmpjj7h151m6hck_3x4v80000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/TestSDK-Prefix-hbktuzbtbbdskjalqtdpoerzmmsk/TestSDK-Prefix.pch.pch36"6A2156FD-E6DA-494E-8CAA-24AA61F41D6A-
-b54BA2B82-C9BE-4BE2-A187-97C24164FCFD
-
