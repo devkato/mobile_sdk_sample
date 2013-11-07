@@ -2,3 +2,5 @@ proguard/
 gen
 bin
 !bin/AndroidManifest.xml
+!bin/classes
+!bin/res
