@@ -1,0 +1,4 @@
+proguard/
+gen
+bin
+!bin/AndroidManifest.xml
