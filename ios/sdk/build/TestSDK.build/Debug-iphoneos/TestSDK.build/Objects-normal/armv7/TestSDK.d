@@ -1,2 +1,3 @@
-dependencies: /Users/kato/TestSDK/TestSDK/TestSDK/TestSDK.m \
-  /Users/kato/TestSDK/TestSDK/TestSDK/../../../TestSDK\ 2/TestSDK/TestSDK/TestSDK.h
+dependencies: \
+  /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.m \
+  /Users/kato/workspace/github/mobile_sdk_sample/ios/sdk/TestSDK/TestSDK.h

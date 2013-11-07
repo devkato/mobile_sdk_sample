@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		41918DFA182BBC38003DB323 /* TestSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4108E1E6182BB99900431CBF /* TestSDK.h */; };
 		4192C9381828D54900A788D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9371828D54900A788D4 /* Foundation.framework */; };
 		4192C93F1828D54900A788D4 /* TestSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C93E1828D54900A788D4 /* TestSDK.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4192C9461828D54900A788D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9451828D54900A788D4 /* XCTest.framework */; };
@@ -48,13 +49,14 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				41918DFA182BBC38003DB323 /* TestSDK.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		411DB19D182904D9006D4676 /* TestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSDK.h; path = "../../../TestSDK 2/TestSDK/TestSDK/TestSDK.h"; sourceTree = "<group>"; };
+		4108E1E6182BB99900431CBF /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
 		4192C9341828D54900A788D4 /* libTestSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192C9371828D54900A788D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4192C93B1828D54900A788D4 /* TestSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSDK-Prefix.pch"; sourceTree = "<group>"; };
@@ -122,7 +124,7 @@
 		4192C9391828D54900A788D4 /* TestSDK */ = {
 			isa = PBXGroup;
 			children = (
-				411DB19D182904D9006D4676 /* TestSDK.h */,
+				4108E1E6182BB99900431CBF /* TestSDK.h */,
 				4192C93E1828D54900A788D4 /* TestSDK.m */,
 				4192C93A1828D54900A788D4 /* Supporting Files */,
 			);
