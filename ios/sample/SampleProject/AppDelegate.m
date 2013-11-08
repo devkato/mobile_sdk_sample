@@ -13,7 +13,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [[TestSDK sharedManager] sayHello];
+  [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys:
+                                     @"value", @"key",
+                                     nil]];
+
+  [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys:
+                                     @"app launched", @"scene",
+                                     nil]];
+
     // Override point for customization after application launch.
     return YES;
 }

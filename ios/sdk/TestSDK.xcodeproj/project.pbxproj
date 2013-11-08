@@ -26,10 +26,10 @@
 		4192C93F1828D54900A788D4 /* TestSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C93E1828D54900A788D4 /* TestSDK.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4192C9461828D54900A788D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9451828D54900A788D4 /* XCTest.framework */; };
 		4192C9471828D54900A788D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9371828D54900A788D4 /* Foundation.framework */; };
-		4192C9491828D54900A788D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9481828D54900A788D4 /* UIKit.framework */; };
 		4192C94C1828D54900A788D4 /* libTestSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9341828D54900A788D4 /* libTestSDK.a */; };
 		4192C9521828D54900A788D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4192C9501828D54900A788D4 /* InfoPlist.strings */; };
 		4192C9541828D54900A788D4 /* TestSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C9531828D54900A788D4 /* TestSDKTests.m */; };
+		41D11A56182CA4200016ADCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D11A55182CA4200016ADCA /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,10 +63,10 @@
 		4192C93E1828D54900A788D4 /* TestSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSDK.m; sourceTree = "<group>"; };
 		4192C9441828D54900A788D4 /* TestSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192C9451828D54900A788D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4192C9481828D54900A788D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4192C94F1828D54900A788D4 /* TestSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestSDKTests-Info.plist"; sourceTree = "<group>"; };
 		4192C9511828D54900A788D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4192C9531828D54900A788D4 /* TestSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSDKTests.m; sourceTree = "<group>"; };
+		41D11A55182CA4200016ADCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D11A56182CA4200016ADCA /* UIKit.framework in Frameworks */,
 				4192C9381828D54900A788D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,7 +85,6 @@
 			files = (
 				4192C94C1828D54900A788D4 /* libTestSDK.a in Frameworks */,
 				4192C9461828D54900A788D4 /* XCTest.framework in Frameworks */,
-				4192C9491828D54900A788D4 /* UIKit.framework in Frameworks */,
 				4192C9471828D54900A788D4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,9 +114,9 @@
 		4192C9361828D54900A788D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41D11A55182CA4200016ADCA /* UIKit.framework */,
 				4192C9371828D54900A788D4 /* Foundation.framework */,
 				4192C9451828D54900A788D4 /* XCTest.framework */,
-				4192C9481828D54900A788D4 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

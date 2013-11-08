@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TestSDK : NSObject
 
-+(id) sharedManager;
--(void) sayHello;
++ (id)sharedManager;
+- (void)sendData:(NSDictionary *)json;
 
 @end

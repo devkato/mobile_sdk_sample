@@ -7,6 +7,14 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "TestSDK.h"
+
+@interface TestSDK (Private)
+
+-(NSString *) generateUUID;
+-(void) removeUUID;
+
+@end
 
 @interface TestSDKTests : XCTestCase
 
@@ -28,7 +36,48 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
+
+- (void)testSendData {
+  
+  TestSDK *sdk = [TestSDK sharedManager];
+  NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+                        @"1", @"hoge",
+                        @"2", @"fuga",
+                        nil];
+  
+  [sdk sendData:dict];
+}
+
+- (void)testNestedDictionary {
+  
+  TestSDK *sdk = [TestSDK sharedManager];
+  NSDictionary *sub_dic =[NSDictionary dictionaryWithObjectsAndKeys:
+                          @"world", @"hello",
+                          nil];
+
+  NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
+                        @"1", @"hoge",
+                        @"2", @"fuga",
+                        sub_dic, @"nested",
+                        nil];
+  
+  [sdk sendData:dict];
+}
+
+//- (void)testGenerateUUID {
+//  TestSDK *sdk = [TestSDK sharedManager];
+//  
+//  NSString *uuid_1 = [sdk generateUUID];
+//  NSLog(@"uuid_1 : %@", uuid_1);
+//  
+//  [sdk removeUUID];
+//  
+//  NSString *uuid_2 = [sdk generateUUID];
+//  NSLog(@"uuid_2 : %@", uuid_2);
+//
+//  [sdk removeUUID];
+//}
 
 @end
