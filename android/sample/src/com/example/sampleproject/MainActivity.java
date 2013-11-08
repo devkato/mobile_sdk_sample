@@ -25,6 +25,10 @@ public class MainActivity extends Activity {
 		try {
 			json.put("hello", "world");
 			json.put("hige", "huga");
+			JSONObject sub = new JSONObject();
+			sub.put("sub1", "value1");
+			sub.put("sub2", "value2");
+			json.put("hige", sub);
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
