@@ -1,9 +1,14 @@
 package com.example.sampleproject;
 
-import com.beenos.mobilesdk.TestSDK;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.devkato.mobilesdk.Installation;
+import com.devkato.mobilesdk.TestSDK;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.util.Log;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -14,7 +19,22 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		TestSDK sdk = new TestSDK(this);
-		sdk.sayHello();
+		
+		JSONObject json = new JSONObject();
+		
+		try {
+			json.put("hello", "world");
+			json.put("hige", "huga");
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		sdk.sendData(json);
+		
+		String uuid = Installation.id(this);
+
+		Log.d("TestSDK", String.format("uuid -> %s", uuid));
 	}
 
 	@Override
@@ -23,5 +43,4 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-
 }

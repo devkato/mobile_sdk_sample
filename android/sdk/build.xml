@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="TestSDK">
+  <property name="jarname" value="TestAndroidSDK" />
+  <property name="dir.temp" value="/tmp/android" />
+  <property name="dir.dest" value="../sample/libs" />
+  
+  <target name="jar" >
+    <delete dir="${dir.temp}" />
+    <mkdir dir="${dir.temp}" />
+    <delete file="${dir.temp}/${jarname}.jar" />
+    <jar basedir="bin/classes" destfile="${dir.temp}/${jarname}.jar" includes="com/devkato/**">
+    </jar>
+    <copy file="${dir.temp}/${jarname}.jar" todir="${dir.dest}" />
+  </target>
+</project>
