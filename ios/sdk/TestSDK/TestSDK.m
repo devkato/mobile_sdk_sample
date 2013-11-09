@@ -279,6 +279,7 @@ static TestSDK* shared = nil;
  -------------------------------------------------------------------------------- */
 -(NSMutableDictionary *)deviceInfo {
   
+  // system info
   NSMutableDictionary *deviceinfo = [[[NSMutableDictionary alloc] init] autorelease];
   UIDevice *currentDevice = [UIDevice currentDevice];
   
@@ -291,6 +292,14 @@ static TestSDK* shared = nil;
   
   // add uuid
   [deviceinfo setValue:self.unique_user_id forKey:@"uuid"];
+  
+  // screen size
+  CGRect screenBounds = [[UIScreen mainScreen] bounds];
+  CGFloat screenScale = [[UIScreen mainScreen] scale];
+  
+  
+  [deviceinfo setValue:[NSString stringWithFormat:@"%d", (int)roundf(screenBounds.size.width * screenScale)] forKey:@"screen_width"];
+  [deviceinfo setValue:[NSString stringWithFormat:@"%d", (int)roundf(screenBounds.size.height * screenScale)] forKey:@"screen_height"];
   
   return deviceinfo;
 }
