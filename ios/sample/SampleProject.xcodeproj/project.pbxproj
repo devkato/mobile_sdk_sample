@@ -59,6 +59,7 @@
 		41125B71182E1C40004F77F8 /* SampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleProjectTests.m; sourceTree = "<group>"; };
 		4118C868182E205A007623E8 /* libTestSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTestSDK.a; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal/libTestSDK.a"; sourceTree = "<group>"; };
 		4118C86B182E2063007623E8 /* TestSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestSDK.h; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal/include/TestSDK/TestSDK.h"; sourceTree = "<group>"; };
+		4118C873182E3545007623E8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../../Library/Developer/Xcode/DerivedData/TestSDK-adiaacruwpszeedgxbghninmqtyg/Build/Products/Debug-universal/include/TestSDK/Reachability.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		41125B37182E1C40004F77F8 = {
 			isa = PBXGroup;
 			children = (
+				4118C873182E3545007623E8 /* Reachability.h */,
 				4118C86B182E2063007623E8 /* TestSDK.h */,
 				4118C868182E205A007623E8 /* libTestSDK.a */,
 				41125B49182E1C40004F77F8 /* SampleProject */,

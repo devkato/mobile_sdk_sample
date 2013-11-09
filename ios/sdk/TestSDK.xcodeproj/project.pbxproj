@@ -21,6 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		4118C870182E343E007623E8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118C86F182E343E007623E8 /* Reachability.m */; };
+		4118C871182E343E007623E8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4118C86F182E343E007623E8 /* Reachability.m */; };
+		4118C872182E3520007623E8 /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4118C86E182E343E007623E8 /* Reachability.h */; };
 		41918DFA182BBC38003DB323 /* TestSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4108E1E6182BB99900431CBF /* TestSDK.h */; };
 		4192C9381828D54900A788D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4192C9371828D54900A788D4 /* Foundation.framework */; };
 		4192C93F1828D54900A788D4 /* TestSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 4192C93E1828D54900A788D4 /* TestSDK.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -49,6 +52,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				4118C872182E3520007623E8 /* Reachability.h in CopyFiles */,
 				41918DFA182BBC38003DB323 /* TestSDK.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +61,8 @@
 
 /* Begin PBXFileReference section */
 		4108E1E6182BB99900431CBF /* TestSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSDK.h; sourceTree = "<group>"; };
+		4118C86E182E343E007623E8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4118C86F182E343E007623E8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		4192C9341828D54900A788D4 /* libTestSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4192C9371828D54900A788D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4192C93B1828D54900A788D4 /* TestSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestSDK-Prefix.pch"; sourceTree = "<group>"; };
@@ -92,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4118C86C182E3426007623E8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4118C86D182E342F007623E8 /* Reachability */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		4118C86D182E342F007623E8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4118C86E182E343E007623E8 /* Reachability.h */,
+				4118C86F182E343E007623E8 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		4192C92B1828D54900A788D4 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +147,7 @@
 		4192C9391828D54900A788D4 /* TestSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4118C86C182E3426007623E8 /* lib */,
 				4108E1E6182BB99900431CBF /* TestSDK.h */,
 				4192C93E1828D54900A788D4 /* TestSDK.m */,
 				4192C93A1828D54900A788D4 /* Supporting Files */,
@@ -255,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4118C870182E343E007623E8 /* Reachability.m in Sources */,
 				4192C93F1828D54900A788D4 /* TestSDK.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4118C871182E343E007623E8 /* Reachability.m in Sources */,
 				4192C9541828D54900A788D4 /* TestSDKTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

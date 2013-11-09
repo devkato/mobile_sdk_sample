@@ -7,6 +7,7 @@
 //
 
 #import "TestSDK.h"
+#import "Reachability.h"
 
 @interface TestSDK()
 
@@ -300,6 +301,24 @@ static TestSDK* shared = nil;
   
   [deviceinfo setValue:[NSString stringWithFormat:@"%d", (int)roundf(screenBounds.size.width * screenScale)] forKey:@"screen_width"];
   [deviceinfo setValue:[NSString stringWithFormat:@"%d", (int)roundf(screenBounds.size.height * screenScale)] forKey:@"screen_height"];
+  
+  // network status
+  Reachability *reachability = [Reachability reachabilityForInternetConnection];
+  [reachability startNotifier];
+  
+  NetworkStatus status = [reachability currentReachabilityStatus];
+  
+  if(status & NotReachable) {
+    [deviceinfo setValue:@"offline" forKey:@"network_status"];
+  }
+  
+  if(status & ReachableViaWiFi) {
+    [deviceinfo setValue:@"wifi" forKey:@"network_status"];
+  }
+  
+  if(status & ReachableViaWWAN) {
+    [deviceinfo setValue:@"mobile" forKey:@"network_status"];
+  }
   
   return deviceinfo;
 }
