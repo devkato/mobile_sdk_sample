@@ -13,7 +13,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys:@"world", @"hello", nil]];
+//  [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys:@"world", @"hello", nil]];
+    [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys:
+                                       @"world", @"hello",
+                                       [NSDictionary dictionaryWithObjectsAndKeys:
+                                        @"value1", @"sub1",
+                                        @"value2", @"sub2",
+                                        nil], @"hoge",
+                                       nil]];
     // Override point for customization after application launch.
     return YES;
 }

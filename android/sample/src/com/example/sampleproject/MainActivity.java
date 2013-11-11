@@ -31,8 +31,17 @@ public class MainActivity extends Activity {
 		JSONObject json = new JSONObject();
 		
 		try {
+			// user data
+			//
+			// {
+			//   "hello": "world",
+			//   "hoge" : {
+			//     "sub1" : "value1",
+			//     "sub2" : "value2"
+			//   }
+			// }
+			//
 			json.put("hello", "world");
-			json.put("hige", "huga");
 			JSONObject sub = new JSONObject();
 			sub.put("sub1", "value1");
 			sub.put("sub2", "value2");
