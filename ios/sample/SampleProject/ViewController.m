@@ -7,12 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "TestSDK.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+- (IBAction)mButton:(id)sender {
+}
+- (IBAction)mButtonTouchDown:(id)sender {
+//  NSLog(@"Button Touch Down");
+  [[TestSDK sharedManager] sendData:[NSDictionary dictionaryWithObjectsAndKeys: @"hello!!!!", @"tocuh", nil]];
+}
 
 - (void)viewDidLoad
 {
