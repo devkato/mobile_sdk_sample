@@ -26,7 +26,7 @@ public class AsyncHttpRequest extends AsyncTask<JSONObject, Void, String> {
 		parameters.add(new BasicNameValuePair("data", params[0].toString()));
 		parameters.add(new BasicNameValuePair("device", params[1].toString()));
 		
-		HttpPost httpPost = new HttpPost("http://192.168.56.1:9292/api/v1/beacon");
+		HttpPost httpPost = new HttpPost("http://192.168.56.1:9292/api/app/v1/beacon");
 		
 		DefaultHttpClient client = new DefaultHttpClient();
 		
